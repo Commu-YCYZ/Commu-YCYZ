@@ -1,0 +1,22 @@
+site_name: Commu-ycyz
+theme:
+  language: zh
+  name: material
+  palette:
+    primary: deep purple
+    accent: indigo
+  font:
+    code: Roboto Mono
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.instant
+plugins:
+  - search:
+      separator: '[\s\u200b\-]'
+
+nav:
+  - 简介:
+    - 关于本项目: index.md
+  - 数学:
+    - 微积分基础: math/basic_calculus.md
