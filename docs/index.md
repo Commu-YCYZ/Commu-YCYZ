@@ -16,3 +16,9 @@
 
 - 清华大学2023情系母校社会实践支队“清韵塞上”
 - [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn)
+
+## 致谢
+
+本站点在开发过程中，参考了一下教程或站点
+- [OI Wiki](https://oi-wiki.org/)
+- [基于mkdocs-material搭建个人静态博客](https://cyent.github.io/markdown-with-mkdocs-material/)
