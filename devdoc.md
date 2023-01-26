@@ -2,7 +2,12 @@
 
 ## 日志
 
-### 邮箱地址超链接 [bug]
+### 230126 Latex语法支持 [bug]
+
+依据这篇博客配置
+> https://cyent.github.io/markdown-with-mkdocs-material/
+
+### 230126 邮箱地址超链接 [bug]
 
 原先的写法`[站点管理员](example@mail)`
 
