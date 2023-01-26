@@ -1,4 +1,4 @@
-## 欢迎来到 Commu-ycyz
+## 欢迎来到 **Commu-ycyz**
 
 **Commu-ycyz** 是一群由银川一中毕业的同学们设立的自由网站，致力于为高中生们分享便于自学的知识和技巧。
 
@@ -19,6 +19,7 @@
 
 ## 致谢
 
-本站点在开发过程中，参考了一下教程或站点
+本站点在开发过程中，参考了以下站点或教程
+
 - [OI Wiki](https://oi-wiki.org/)
 - [基于mkdocs-material搭建个人静态博客](https://cyent.github.io/markdown-with-mkdocs-material/)
