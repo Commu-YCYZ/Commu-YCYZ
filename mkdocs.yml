@@ -28,6 +28,8 @@ extra_javascript:
     - 'src/js/extra.js' # latex 公式支持
     - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML' # latex 公式支持
 
+copyright: 'Copyright &copy; 2023 Commu-YCYZ'
+
 nav:
   - 关于本站:
     - 简介: index.md
