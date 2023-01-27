@@ -29,8 +29,9 @@ extra_javascript:
     - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML' # latex 公式支持
 
 nav:
-  - 简介:
-    - 关于本项目: index.md
+  - 关于本站:
+    - 简介: index.md
+    - 参与贡献: about/to_contribute.md
   - 数学:
     - 微积分基础: math/basic_calculus.md
     - 行列式: math/determinant.md
