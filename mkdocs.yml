@@ -9,7 +9,7 @@ theme:
     text: 'Fira Sans'
     code: 'Fira Mono'
   features:
-    # - navigation.tracking
+    - navigation.tracking
     - navigation.tabs
     - navigation.instant
 
@@ -17,22 +17,16 @@ plugins:
   - search:
       separator: '[\s\u200b\-]'
 
-# markdown_extensions:
-#   - pymdownx.arithmatex:
-#       generic: true
-
-# extra_javascript:
-#   - javascripts/mathjax.js
-#   - https://polyfill.io/v3/polyfill.min.js?features=es6
-#   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 markdown_extensions:
-  - pymdownx.arithmatex:
+  - admonition # !!!note 格式支持
+  - pymdownx.arithmatex: # latex 公式支持
       generic: true
+  
 
 extra_javascript:
-    - 'src/js/extra.js'
-    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+    - 'src/js/extra.js' # latex 公式支持
+    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML' # latex 公式支持
 
 nav:
   - 简介:
