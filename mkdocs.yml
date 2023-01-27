@@ -33,3 +33,7 @@ nav:
     - 关于本项目: index.md
   - 数学:
     - 微积分基础: math/basic_calculus.md
+    - 行列式: math/determinant.md
+  - 物理:
+    - 常见模型的深入理解: physics/deeper_understanding_on_regular_models.md
+    - 狭义相对论: physics/special_relativity.md
