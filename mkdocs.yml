@@ -22,6 +22,7 @@ markdown_extensions:
   - admonition # !!!note 格式支持
   - pymdownx.arithmatex: # latex 公式支持
       generic: true
+  - pymdownx.details
   
 
 extra_javascript:
