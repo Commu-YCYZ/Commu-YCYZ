@@ -30,9 +30,22 @@ Q=\int_0^TP\mathrm{d}t&=\int_0^TI_0^2\sin^2\omega t R \mathrm{d}t\\
 ## 电容器放电
 
 我们考虑含电容器电路的简单情形：一电容器 $C$ 与电阻 $R$ 串联，并且附有一开关。  
-设电容器含有初始电荷量 $Q$，我们分析闭合开关后的电流情况。
+设电容器含有初始电荷量 $Q$，我们分析闭合开关后的电流与电压曲线。
 
-首先，电路中的电流被定为单位时间流过的电荷量，即 $I=\frac{\mathrm{d}q}{\mathrm{d}t}$，
+首先，电路中的电流被定为单位时间流过的电荷量，即 $I=|\frac{\mathrm{d}q}{\mathrm{d}t}|$，由于我们研究放电的情况，因此取 $I=-\frac{\mathrm{d}q}{\mathrm{d}t}$  
+电压与电容器电荷量存在关系 $U=\frac{q}{C}$，有欧姆定律 $U=IR$  
+因此我们解微分方程：
+
+$$\begin{aligned}
+\frac{q}{C}&=-\frac{\mathrm{d}q}{\mathrm{d}t}R\\
+-\frac{\mathrm{d}t}{RC}&=\frac{\mathrm{d}q}{q}\\
+-\frac{t}{RC}&=\ln q + A\\
+e^{-\frac{t}{RC}}&=e^Aq
+\end{aligned}$$
+
+上式 $A$ 是一常量，由于不定积分所得原函数的不定性所引起，需根据初值条件确定，我们已知初值条件为：$t=0$ 时，$q=Q$，从而消去 $A$
+
+电容器电荷量的表达式为 $q=Qe^{-\frac{t}{RC}}$
 
 ## 磁场中导体棒的运动
 
