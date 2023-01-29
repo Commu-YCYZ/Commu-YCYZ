@@ -5,3 +5,8 @@
 可选：**线性代数**
 
 ## 说明
+
+
+---
+!!! summary "页面作者"
+    [Yang Zhehan](mailto:yangzheh22@mails.tsinghua.edu.cn)
