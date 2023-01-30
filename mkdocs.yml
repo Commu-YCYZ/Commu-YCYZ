@@ -12,6 +12,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.instant
+    - navigation.footer
 
 plugins:
   - search:
