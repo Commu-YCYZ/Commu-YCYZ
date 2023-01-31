@@ -104,9 +104,58 @@ $f$ 是关于 $x$ 的函数，但是如果我们找到某个中间变量 $u$，�
 用专门的数学符号表示求不定积分：
 
 !!! note "求不定积分"
-    $$\int f(x)=F(x)+C,F^\prime(x)=f(x)$$
+    $$\int f(x)\mathrm{d}x=F(x)+C,F^\prime(x)=f(x)$$
 
 可以看到，这与定积分在符号上有所区别，少了积分上限与积分下限。
+
+### 常见不定积分
+
+$\int \frac{1}{x}\mathrm{d}x=\ln{|x|}+C$
+
+$\int e^x\mathrm{d}x=e^x+C$
+
+$\int x^a\mathrm{d}x=\frac{1}{a+1}x^{a+1}+C~~(a\neq -1)$
+
+$\int \sin x\mathrm{d}x=-\cos x +C$
+
+$\int \cos x\mathrm{d}x= \sin x +C$
+
+### 计算不定积分的技巧
+
+我们很快就能看到积分技巧的众多应用，常用的技巧之一是换元法，我们将从例子中学习这一方法。
+
+!!! note "例1"
+
+    求 $\int \frac{1}{a-x}\mathrm{d}x$
+
+    我们希望把这个积分转换成 $\int \frac{1}{x}\mathrm{d}x$ 的形式，因此令 $u=a-x$，
+
+    需要注意的是，$\mathrm{d}u\neq a-\mathrm{d}x$，事实上，$u$ 对 $x$ 求导可得 $\frac{\mathrm{d}u}{\mathrm{d}x}=-1$，因此 $\mathrm{d}x=-\mathrm{d}u$，式子现在变成了
+
+    $\begin{aligned}
+    \int \frac{1}{a-x}\mathrm{d}x&=\int \frac{1}{u}\cdot (-\mathrm{d}u)\\
+    &=-\int \frac{1}{u}\mathrm{d}u\\
+    &=-\ln |u| -C\\
+    &=-\ln |a-x| +C
+    \end{aligned}$
+
+    在这里，我们把 $+C$ 变成 $-C$，这并不影响，因为这个常数 $C$ 是任意的，写作 $+C$ 仅仅是约定俗成的传统。
+
+!!! note "例2"
+
+    求 $\int\sqrt{a^2-x^2}\mathrm{d}x$
+
+    令 $x=a\cos\theta$，则 $\mathrm{d}x=-a\sin\theta\mathrm{d}\theta$
+    
+    $\begin{aligned}
+    \int\sqrt{a^2-x^2}\mathrm{d}x&=\int a\sin\theta\cdot(-a\sin\theta\mathrm{d}\theta)\\
+    &=-a^2\int\sin^2\theta\mathrm{d}\theta\\
+    &=-a^2\int\frac{1-\cos2\theta}{2}\mathrm{d}\theta\\
+    &=-\frac{a^2}{2}\int(1-\cos2\theta)\mathrm{d}\theta\\
+    &=-\frac{a^2}{2}(\theta-\frac{1}{2}\sin2\theta) + C\\
+    &=-\frac{a^2}{2}\big(\arccos\frac{x}{a}-\frac{x}{a}\sqrt{1-(\frac{x}{a})^2}\big)+C\\
+    &=\frac{x}{2}\sqrt{a^2-x^2}-\frac{a^2}{2}\arccos\frac{x}{a}+C
+    \end{aligned}$
 
 ## 微分方程
 
