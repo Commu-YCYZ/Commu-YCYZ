@@ -21,7 +21,7 @@ Q=\int_0^TP\mathrm{d}t&=\int_0^TI_0^2\sin^2\omega t R \mathrm{d}t\\
 &=I_0^2R\int_0^T\frac{1-\cos 2\omega t}{2}\mathrm{d}t\\
 &=\frac{1}{2}I_0^2R(t-\frac{1}{2\omega}\sin 2\omega t)\bigg|_0^T\end{aligned}$$
 
-可得 $T$ 时间内，$Q=\frac{1}{2}I_0^2RT$，因此交变电流的热效应表现等效为 $I_{eff}=1/\sqrt{2}I_0$ 的直流电流，后者在 $T$ 时间内做功同样为 $Q_{eff}=\frac{1}{2}I_0^2RT$
+可得 $T$ 时间内，$Q=\frac{1}{2}I_0^2RT$，因此交变电流的热效应表现等效为 $I_{eff}=1/\sqrt{2}I_0$ 的直流电流，后者在 $T$ 时间内做功同样为 $Q_{eff}=\frac{1}{2}I_0^2RT$.
 
 ??? question "这样等效合适吗？"
 
