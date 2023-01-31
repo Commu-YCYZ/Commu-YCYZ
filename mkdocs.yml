@@ -40,6 +40,7 @@ nav:
     - 圆锥曲线解题方法与思路: math/conics.md
     - 微积分基础: math/basic-calculus.md
     - 行列式: math/determinant.md
+    - 二项式定理的拓展与应用: math/quadratic.md
   - 物理:
     - 常见模型的深入理解: physics/deeper-understanding-on-regular-models.md
     - 狭义相对论: physics/special-relativity.md
