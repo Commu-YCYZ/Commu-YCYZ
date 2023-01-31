@@ -35,10 +35,11 @@ copyright: 'Copyright &copy; 2023 Commu-YCYZ'
 nav:
   - 关于本站:
     - 简介: index.md
-    - 参与贡献: about/to_contribute.md
+    - 参与贡献: about/to-contribute.md
   - 数学:
-    - 微积分基础: math/basic_calculus.md
+    - 圆锥曲线解题方法与思路: math/conics.md
+    - 微积分基础: math/basic-calculus.md
     - 行列式: math/determinant.md
   - 物理:
-    - 常见模型的深入理解: physics/deeper_understanding_on_regular_models.md
-    - 狭义相对论: physics/special_relativity.md
+    - 常见模型的深入理解: physics/deeper-understanding-on-regular-models.md
+    - 狭义相对论: physics/special-relativity.md
