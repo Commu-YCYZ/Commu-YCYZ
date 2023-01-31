@@ -58,6 +58,5 @@ e^{-\frac{t}{RC}}&=e^Aq
 我们现在来看两根导体棒的情况。
 
 ---
-
 !!! summary "页面作者"
     [Yang Zhehan](mailto:yangzheh22@mails.tsinghua.edu.cn)

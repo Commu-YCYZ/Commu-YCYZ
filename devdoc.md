@@ -33,11 +33,8 @@
 
 ### 230125 python http.server 开启 80 端口失败 \[bug]
 
-原先输入命令\
-&#x20;`yangzheh@VM-8-8-ubuntu:~/demo/site$ python3 -m http.server 80`
+原先输入命令 `yangzheh@VM-8-8-ubuntu:~/demo/site$ python3 -m http.server 80`
 
 显示 `permission denied`
 
-新的命令\
-&#x20;`yangzheh@VM-8-8-ubuntu:~/demo/site$ sudo python3 -m http.server 80` \
-可以正常运行
+新的命令 `yangzheh@VM-8-8-ubuntu:~/demo/site$ sudo python3 -m http.server 80` 可以正常运行
