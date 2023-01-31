@@ -20,10 +20,10 @@ plugins:
 
 
 markdown_extensions:
-  - admonition # !!!note 格式支持
+  - admonition # !!! 格式支持
   - pymdownx.arithmatex: # latex 公式支持
       generic: true
-  - pymdownx.details
+  - pymdownx.details # 折叠格式 ???
   
 
 extra_javascript:
