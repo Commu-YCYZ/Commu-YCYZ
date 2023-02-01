@@ -24,7 +24,7 @@
 
     $\equiv$ 是一种数学符号，表示*恒等于*，也常常表示*被定义为*。因此 $\frac{\mathrm{d}f}{\mathrm{d}x}$ 仅仅是导数的另一种记法。
 
-    事实上，Leibniz 最先使用了这样的记法，他赋予了 $\mathrm{d}x$，$\mathrm{d}f$ 这样的记号 **微分** 的意义，从而将导数表示为微分的商。$\mathrm{d}$ 即来自于*微分(differential)*。
+    事实上，Leibniz 最先使用了这样的记法，他赋予了 $\mathrm{d}x$，$\mathrm{d}f$ 这样的记号 **微分** 的意义，从而将导数表示为微分的商。符号$\mathrm{d}$ 即来自于*微分(differential)*。
 
 我们马上可以看到，这样表示导数有若干好处。
 

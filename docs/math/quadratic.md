@@ -298,7 +298,7 @@ $$
 
 又如著名的杨辉三角形：
 
-![image-20221123180539691](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221123180539691.png)
+![杨辉三角形](./img/yanghui-triangle.png)
 
 每个点上的数为上一行两个与其相连的数的和。
 
@@ -316,7 +316,7 @@ $$
 
 同样地，还有杨辉三棱锥
 
-![image-20221123181815598](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20221123181815598.png)
+![杨辉三棱锥](./img/yanghui-triangular-pyramid.png)
 
 三棱锥的每个侧面都是一个杨辉三角。
 
