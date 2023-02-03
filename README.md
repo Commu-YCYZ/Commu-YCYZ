@@ -26,4 +26,4 @@
 
 ### 本地部署静态站点
 
-在项目文件夹中运行 `mkdocs build`，进入 `site` 目录后运行 `python3 -m http.server1`
+在项目文件夹中运行 `mkdocs build`，进入 `site` 目录后运行 `python3 -m http.server`
