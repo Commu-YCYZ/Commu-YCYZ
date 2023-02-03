@@ -1,0 +1,19 @@
+{#-
+This file was edited to add beian link
+-#}
+<div class="md-copyright">
+    {% if config.copyright %}
+    <div class="md-copyright__highlight">
+        {{ config.copyright }}
+    </div>
+    {% endif %}
+    <div>
+        <a href="https://beian.miit.gov.cn">宁ICP备2023000078号</a>
+    </div>
+    {% if not config.extra.generator == false %}
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+        Material for MkDocs
+    </a>
+    {% endif %}
+</div>

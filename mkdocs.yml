@@ -14,6 +14,9 @@ theme:
     - navigation.instant
     - navigation.footer
 
+  custom_dir: overrides
+  
+
 plugins:
   - search:
       separator: '[\s\u200b\-]'
