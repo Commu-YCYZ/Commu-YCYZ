@@ -67,37 +67,65 @@ $$\begin{aligned}
 
 对于一根导体棒在光滑导轨上的运动，类似于前面讨论的电容器，速度 $v$ 随时间变化指数衰减。
 
-我们现在来看两根导体棒的情况：两光滑导轨平行水平放置，间距$l$，忽略其电阻。两相同导体棒电阻均为 $R$，初始时，左导体棒静止，右导体棒速度为 $v_0$，向右运动，整个区域内有竖直向上的磁场 $B$.
+我们现在来看两根导体棒的情况：两光滑导轨平行水平放置，间距$l$，忽略其电阻。两相同导体棒电阻均为 $R$，质量 $m$，初始时，左导体棒静止，右导体棒速度为 $v_0$，向右运动，整个区域内有竖直向上的磁场 $B$.
 
 我们将左导体棒速度设为$v_1$，右导体棒速度设为$v_2$，并且列出动力学方程研究这一过程。
 
-### 无外力作用
+### 无外力作用的情况
 
 两导体棒除安培力外不受任何外力。
 
 由右导体棒引起的电动势为 $Blv_2$，左导体棒引起的电动势为 $Blv_1$，我们统一取向右为正方向，那么总电动势为 $Blv_2-Blv_1$，总电流 $I=\frac{Bl}{2R}(v_2-v_1)$.
 
-两导体棒各自的运动方程为 $-BIl=a_2$，$BIl=a_1$.
+两导体棒各自的运动方程为 $-BIl=ma_2$，$BIl=ma_1$.
 
 一共3个未知量，我们列出了3个方程，现在可以试着解方程。消去 $I$，并且取 $u=v_2-v_1$.
 
 $$\begin{aligned}
-\frac{\mathrm{d}v_2}{\mathrm{d}t}-\frac{\mathrm{d}v_1}{\mathrm{d}t}&=-2Bl\cdot \frac{Bl}{2R}(v_2-v_1)\\
-\frac{\mathrm{d}u}{\mathrm{d}t}&=-\frac{B^2l^2}{R}u
+\frac{\mathrm{d}v_2}{\mathrm{d}t}-\frac{\mathrm{d}v_1}{\mathrm{d}t}&=-2Bl\cdot \frac{Bl}{2mR}(v_2-v_1)\\
+\frac{\mathrm{d}u}{\mathrm{d}t}&=-\frac{B^2l^2}{mR}u
 \end{aligned}$$
 
 解这个微分方程，并且带入初值条件：$t=0$时，$u=v_0$.
 
-$$u=v_0e^{-\frac{B^2l^2}{R}t}$$
+$$u=v_0e^{-\frac{B^2l^2}{mR}t}$$
 
 此外，我们有 $a_1+a_2=0$，即 $v_1+v_2=v_0$（这显然是由于动量守恒），利用 $v_1=\frac{v_1+v_2}{2}-\frac{v_2-v_1}{2}$，$v_2=\frac{v_1+v_2}{2}+\frac{v_2-v_1}{2}$，我们最终得到它们的解析式及函数图像。
 
 $$\begin{aligned}
-v_1&=\frac{v_0}{2}(1-e^{-\frac{B^2l^2}{R}t})\\
-v_2&=\frac{v_0}{2}(1+e^{-\frac{B^2l^2}{R}t})
+v_1&=\frac{v_0}{2}(1-e^{-\frac{B^2l^2}{mR}t})\\
+v_2&=\frac{v_0}{2}(1+e^{-\frac{B^2l^2}{mR}t})
 \end{aligned}$$
 
 ![无外力作用下的双导体棒运动图像](./img/deeper-understanding-on-regular-models-1.svg)
+
+### 有外力作用的情况
+
+假设有一恒定外力 $F$ 牵拉右导体棒，除此之外条件不变，我们再来研究这一情况。
+
+总电流表达式不变，$I=\frac{Bl}{2R}(v_2-v_1)$，运动方程变为 $F-BIl=ma_2$，$BIl=ma_1$.
+
+接下来的处理过程并无多少区别，注意在解不定积分时换元即可，最终我们得到：
+
+$$\begin{aligned}
+v_1&=\frac{F}{2m}t+\frac{v_0}{2}-\frac{FR}{2B^2l^2}+(\frac{FR}{2B^2l^2}-\frac{v_0}{2})e^{-\frac{B^2l^2}{mR}t}\\
+v_2&=\frac{F}{2m}t+\frac{v_0}{2}+\frac{FR}{2B^2l^2}-(\frac{FR}{2B^2l^2}-\frac{v_0}{2})e^{-\frac{B^2l^2}{mR}t}
+\end{aligned}$$
+
+若记 $v_d=\frac{FR}{B^2l^2}$，上式表达更为简洁：
+
+$$\begin{aligned}
+v_1&=\frac{F}{2m}t+\frac{v_0}{2}-\frac{v_d}{2}+(\frac{v_d}{2}-\frac{v_0}{2})e^{-\frac{B^2l^2}{mR}t}\\
+v_2&=\frac{F}{2m}t+\frac{v_0}{2}+\frac{v_d}{2}-(\frac{v_d}{2}-\frac{v_0}{2})e^{-\frac{B^2l^2}{mR}t}
+\end{aligned}$$
+
+
+![有外力作用下的双导体棒运动图像](./img/deeper-understanding-on-regular-models-2.svg)
+
+!!! note "注意"
+    绘制两张图像时为了方便起见，直接交换了 $v_0$ 与 $v_d$ 的数值，以便满足左图 $v_d>v_0$，右图 $v_d<v_0$.
+
+事实上，$v_d$ 是 $t$ 趋于无穷后的两导体棒的速度差（可以通过 $v_1$，$v_2$）的解析式看出。即随着时间不断延长，指数项便可以忽略不计，我们可以认为两导体棒做匀加速直线运动，彼此之间存在恒定的速度差。
 
 ---
 !!! summary "页面作者"
