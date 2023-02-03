@@ -231,8 +231,8 @@ $$
 综上，有：
 
 $$
-f(n_0+1,m_0)=\sum_{0\leqslant k_1,k_2,\cdots,k_{m_0}\leqslant n_0+1}\left(\dfrac{(n_0+1)!}{\displaystyle\prod^{m_0}_{i=1}(k_i!)}\displaystyle\prod^{m_0}_{i=1}a_i^{k_i}\right)
-\\\left(其中\displaystyle\sum^{m_0}_{i=1}k_i=n_0+1\right)
+f(n_0+1,m_0)=\sum_{0\leqslant k_1,k_2,\cdots,k_{m_0}\leqslant n_0+1}\left(\dfrac{(n_0+1)!}{\displaystyle\prod^{m_0}_{i=1}(k_i!)}\displaystyle\prod^{m_0}_{i=1}a_i^{k_i}\right)\\
+\left(\text{其中}\displaystyle\sum^{m_0}_{i=1}k_i=n_0+1\right)
 $$
 
 接下来考虑 $f(n_0,m_0+1)$. 显然有
