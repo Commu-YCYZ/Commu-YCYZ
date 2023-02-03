@@ -1,3 +1,8 @@
+!!! warning "需要审核"
+    - 本页面没有经过除作者以外的人的审核。
+    - 本页面可能包含知识性错误。
+    - 欢迎参与修改页面！
+
 ## 前言
 
 >*Mathematics is the art of giving the same name to different things.* 
