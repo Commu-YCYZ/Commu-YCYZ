@@ -28,6 +28,7 @@ markdown_extensions:
   - pymdownx.arithmatex: # latex 公式支持
       generic: true
   - pymdownx.details # 折叠格式 ???
+  - footnotes
   
 
 extra_javascript:

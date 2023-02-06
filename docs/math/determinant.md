@@ -5,9 +5,9 @@
 
 ## 前言
 
->*Mathematics is the art of giving the same name to different things.* 
+> *Mathematics is the art of giving the same name to different things.* 
 >
->--*Henri Poincaré*
+> --*Henri Poincaré*
 
 **行列式(*determinant*)**作为基本的数学工具在**代数、几何、矢量分析、微积分**等多个方面都有广泛的应用，因此有十分的必要对行列式的计算、构造、性质及应用进行充分的介绍。
 
@@ -34,7 +34,7 @@
 
 - **行列式**：行列式是一个函数： $M_{n\times n}\mapsto\mathbb{R}$，一般记作 $detM$ 如何输出的问题即行列式的定义问题，为了便于理解和计算，我们采用如下的**递归式定义**（*实际上，递归式的定义在数学中被广泛应用，例如加法与乘法的定义便是之一*）:
 
-    $|a_{11}| = a_{11}$
+    $|a_{11}|=a_{11}$
 
     $\begin{vmatrix}
     a_{11}&a_{12}\\
@@ -75,12 +75,12 @@
 
 线性方程组*（linear equations）*即多元一次方程组。其一般形式可写为：  
 
->$\begin{matrix}
-a_{11}x_1+a_{12}x_2+\cdots +a_{1n}x_n&=b_1\\
-a_{21}x_1+a_{22}x_2+\cdots +a_{2n}x_n&=b_2\\
- \cdot\cdots\cdot\cdot &&&&&&&&&&&&&& （1.2）\\
-a_{s1}x_1+a_{s2}x_2+\cdots +a_{sn}x_n&=b_s\\
-\end{matrix}$  
+> $\begin{matrix}
+> a_{11}x_1+a_{12}x_2+\cdots +a_{1n}x_n&=b_1\\
+> a_{21}x_1+a_{22}x_2+\cdots +a_{2n}x_n&=b_2\\
+> \cdot\cdots\cdot\cdot &&&&&&&&&&&&&& （1.2）\\
+> a_{s1}x_1+a_{s2}x_2+\cdots +a_{sn}x_n&=b_s\\
+> \end{matrix}$  
 
 其中 $a_{ij}$ 称为**系数**（*coefficient*），$b_{i}$ 称为**常数项**(*constant*)。特殊地，若 $b_{i} (i=1,2,\cdots ,s)$ 恒等于0，则称为一个**齐次**线性方程组（*homogeneous linear equations*），否则称为一个**非齐次**线性方程组（*inhomogeneous linear equations*）。  
 
