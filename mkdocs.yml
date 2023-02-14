@@ -1,5 +1,5 @@
 site_name: Commu-YCYZ
-repo_url: https://github.com/adamanteye/Commu-YCYZ
+repo_url: https://github.com/Commu-YCYZ/Commu-YCYZ
 repo_name: Commu-YCYZ
 
 theme:
@@ -31,6 +31,11 @@ theme:
       toggle:
         icon: material/brightness-4
         name: 切换到日间模式
+
+extra: 
+  analytics:
+    provider: google
+    property: G-4KGQ4S3RWE
 
 plugins:
   - search:
