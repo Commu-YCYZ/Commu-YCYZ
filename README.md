@@ -23,7 +23,10 @@ pip install mkdocs-git-revision-date-localized-plugin
 
 ### 克隆项目
 
-运行 `git clone https://github.com/adamanteye/Commu-YCYZ.git`
+运行
+```
+git clone https://github.com/Commu-YCYZ/Commu-YCYZ.git
+```
 
 ### 本地调试
 
