@@ -1,4 +1,7 @@
 site_name: Commu-YCYZ
+repo_url: https://github.com/adamanteye/Commu-YCYZ
+repo_name: Commu-YCYZ
+
 theme:
   language: zh
   name: material
@@ -14,7 +17,8 @@ theme:
     - navigation.instant
     - navigation.footer
     - navigation.top
-
+  icon:
+    repo: fontawesome/brands/github
   custom_dir: overrides
   
 
@@ -46,5 +50,6 @@ nav:
     - 微积分基础: math/basic-calculus.md
     - 行列式的构造、基本性质及其应用: math/determinant.md
     - 二项式定理的拓展与应用: math/quadratic.md
+    # - 计数原理: math/counting.md
   - 物理:
     - 常见模型的深入理解: physics/deeper-understanding-on-regular-models.md
