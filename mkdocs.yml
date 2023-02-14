@@ -25,6 +25,9 @@ theme:
 plugins:
   - search:
       separator: '[\s\u200b\-]'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      locale: zh
 
 
 markdown_extensions:

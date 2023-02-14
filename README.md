@@ -12,9 +12,14 @@
 
 运行 `pip install mkdocs` 以在本地安装，您可能需要先将 `pip` 升级到最新。
 
-### 安装 Mkdocs-Material 框架
+### 安装 Mkdocs-Material 框架及插件
 
-运行 `pip install mkdocs-material`
+运行
+
+```
+pip install mkdocs-material
+pip install mkdocs-git-revision-date-localized-plugin
+```
 
 ### 克隆项目
 

@@ -8,12 +8,13 @@
 
 ## 联系方式
 
-* 清华大学 2023 情系母校社会实践支队 **清韵塞上**
-* [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn)
+- 清华大学 2023 情系母校社会实践支队 **清韵塞上**（*QQ群：*675127285）
+- [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn)
 
 ## 致谢
 
 本站点在开发过程中，参考了以下站点或教程
 
-* [OI Wiki](https://oi-wiki.org/)
-* [基于 mkdocs-material 搭建个人静态博客](https://cyent.github.io/markdown-with-mkdocs-material/)
+- [OI Wiki](https://oi-wiki.org/)
+- [基于 mkdocs-material 搭建个人静态博客](https://cyent.github.io/markdown-with-mkdocs-material/)
+- [计算机系学生科协技能引导文档](https://github.com/SAST-skill-docers/sast-skill-docs)
