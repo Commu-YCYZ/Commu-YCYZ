@@ -1,5 +1,6 @@
 ---
 comments: true
+description: 高中生微积分基础，适用于高中物理。
 ---
 
 !!! warning "需要审核"

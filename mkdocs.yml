@@ -16,6 +16,8 @@ theme:
     - navigation.instant
     - navigation.footer
     - navigation.top
+
+    - content.action.view
   icon:
     repo: fontawesome/brands/github
   custom_dir: overrides

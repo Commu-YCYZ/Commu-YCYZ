@@ -1,5 +1,6 @@
 ---
 comments: true
+description: 利用积分、微分方程等工具，对高中物理中出现的若干模型作分析。
 ---
 
 !!! warning "需要审核"

@@ -1,5 +1,6 @@
 ---
 comments: true
+description: 对行列式的计算、构造、性质及应用进行充分的介绍。
 ---
 
 !!! warning "需要审核"

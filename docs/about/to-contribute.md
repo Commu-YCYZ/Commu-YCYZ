@@ -1,5 +1,6 @@
 ---
 comments: true
+description: 写给 Commu-YCYZ 贡献者的快速教程与格式规范。
 ---
 
 ## 撰写页面
