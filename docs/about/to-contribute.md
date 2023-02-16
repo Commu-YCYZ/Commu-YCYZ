@@ -1,24 +1,30 @@
 ---
 comments: true
-description: 写给 Commu-YCYZ 贡献者的快速教程与格式规范。
+description: 参与 Commu-YCYZ 贡献的快速教程
 ---
 
-## 撰写页面
+## Markdown 格式
 
-### 流程
+本站采用 **[Markwon](https://markdown.com.cn/)** 格式渲染页面，Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，简单地说，格式与内容均一览无余。
 
-1. 与 [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 联系，以了解您想写的主题是否已有他人正在编辑。
-2. 向 [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 提供您想要在此网站使用的昵称，以及您的邮箱地址。
-3. 提供您写好的页面稿件，您如能编辑 markdown 文本，请参照 [OI Wiki](https://oi-wiki.org/) 的贡献指南。
-4. [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 将您的页面发布到网站。
-5. [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 将您添加到 **页面作者**。
+??? tip "查看页面源代码"
+    通过点击页面顶部的控件，您可以方便地查看页面所对应的 `md` 文档：
 
-## 修改页面
+    ![查看源代码控件](./img/to-contribute-1.png)
 
-### 流程
+如果您希望修改或撰写页面，以现有页面为参考进行编辑是最快的办法，但也可以通过 **[Markdown 官方教程](https://markdown.com.cn/intro.html)** 学习其语法。
 
-1. 与 [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 联系，说明您想要修改的原因，[站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 可能会征求 **页面作者** 的同意。
-2. 向 [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 提供您想要在此网站使用的昵称，以及您的邮箱地址。
-3. 提供您做出修改的部分，您如能编辑 markdown 文本，请参照 [OI Wiki](https://oi-wiki.org/) 的贡献指南。
-4. [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 将修改后的页面发布到网站。
-5. [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn) 将您添加到 **贡献者**。
+??? warning "扩展语法"
+    本站启用了扩展语法以达到更丰富的显示效果。
+
+    您可以通过 **[PyMdown Extensions Documentation](https://facelessuser.github.io/pymdown-extensions/)** 查看相关细节。
+
+## 了解 GitHub
+
+**[GitHub](https://github.com/)** 是最负盛名的开源软件托管平台，软件开发者利用它可以完成代码版本控制，团队协作，快速部署等任务。
+
+**GitHub** 最基本的概念是 **repository（仓库）**，**仓库**不仅用于存放代码，还兼具提供文档，发布讨论等功能，数量庞大的开源项目都有自己的仓库。
+
+本站点的官方**仓库地址**是 **[Commu-YCYZ](https://github.com/)**。我们常用的功能是 **[Issues](https://github.com/Commu-YCYZ/Commu-YCYZ/issues)** ，它提供了*信息发布，成员讨论，代码审核，bug 反馈*等功能。
+
+如果您在本站发布过评论，那么您已经注册了 **GitHub**.
