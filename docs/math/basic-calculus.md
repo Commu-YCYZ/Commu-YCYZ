@@ -180,4 +180,4 @@ $f$ 是关于 $x$ 的函数，但是如果我们找到某个中间变量 $u$，�
 
 ---
 !!! summary "页面作者"
-    [Yang Zhehan](mailto:yangzheh22@mails.tsinghua.edu.cn)
+    [Lv Rui](mailto:yangzheh22@mails.tsinghua.edu.cn)
