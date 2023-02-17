@@ -69,6 +69,7 @@ nav:
   - 关于本站:
     - 简介: index.md
     - 参与贡献: about/to-contribute.md
+    - 格式指导: about/format.md
   - 数学:
     - 圆锥曲线解题方法与思路: math/conics.md
     - 微积分基础: math/basic-calculus.md
