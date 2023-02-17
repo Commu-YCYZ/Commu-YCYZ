@@ -1,6 +1,6 @@
 ---
 comments: true
-description: 参与 Commu-YCYZ 贡献的快速教程
+description: 参与 Commu-YCYZ 贡献的快速上手教程
 ---
 
 ## Markdown 格式
@@ -25,6 +25,6 @@ description: 参与 Commu-YCYZ 贡献的快速教程
 
 **GitHub** 最基本的概念是 **repository（仓库）**，**仓库**不仅用于存放代码，还兼具提供文档，发布讨论等功能，数量庞大的开源项目都有自己的仓库。
 
-本站点的官方**仓库地址**是 **[Commu-YCYZ](https://github.com/)**。我们常用的功能是 **[Issues](https://github.com/Commu-YCYZ/Commu-YCYZ/issues)** ，它提供了*信息发布，成员讨论，代码审核，bug 反馈*等功能。
+本站点的官方**仓库地址**是 **[Commu-YCYZ](https://github.com/)**。我们常用的功能是 **[Issue](https://github.com/Commu-YCYZ/Commu-YCYZ/issues)** ，它提供了*信息发布，成员讨论，代码审核，bug 反馈*等功能，您可以在上面看到 **Commu-YCYZ Team** 下一步的开发计划、目前的讨论、PR 审核等等。
 
-如果您在本站发布过评论，那么您已经注册了 **GitHub**.
+如果您注册了 **GitHub** 账号，您就可以利用 **GitHub** 社区的诸多功能提供反馈，包括但不限于在本站发布评论，提供内容修改建议，贡献新的内容，参与开发讨论等等。
