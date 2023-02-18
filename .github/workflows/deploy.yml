@@ -11,23 +11,22 @@ jobs:
     runs-on: ubuntu-22.04
     
     steps:
-      - name: Checkout To Master
+
       - uses: actions/checkout@v3
+      
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
           cache: pipenv
 
-      - name: Install Python dependencies
-        run: |
+
+      - run: |
           curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python3
           pipenv install
-
-      - name: Build Static Site
-        run: pipenv run mkdocs build
+          pipenv run mkdocs build
           
-      - name: Deploy to Remote Server
-        uses: easingthemes/ssh-deploy@main
+
+      - uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.TENCENT_PRIVATE_KEY }}
           ARGS: "-rlgoDzvc -i"
