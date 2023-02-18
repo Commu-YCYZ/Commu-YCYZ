@@ -10,7 +10,6 @@
 
 - 清华大学 2023 情系母校社会实践支队 **清韵塞上**（*QQ：* 675127285）
 - [站点管理员](mailto:yangzheh22@mails.tsinghua.edu.cn)
-- **Commu-YCYZ Team**（*QQ：* 700249573）
 
 ## 致谢
 
