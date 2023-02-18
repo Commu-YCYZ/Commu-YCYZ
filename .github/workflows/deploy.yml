@@ -29,11 +29,11 @@ jobs:
       - uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.TENCENT_PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i --delete"
+          ARGS: "-avzr --delete"
           SOURCE: "site/"
           REMOTE_HOST: ${{ secrets.TENCENT_HOST }}
           REMOTE_USER: ${{ secrets.TENCENT_USER }}
-          TARGET: ${{ secrets.TENCENT_WORKING_DIR }}
+          TARGET: ${{ secrets.TENCENT_WORKING_DIR }}/site
           SCRIPT_BEFORE: |
             whoami
             ls -al
