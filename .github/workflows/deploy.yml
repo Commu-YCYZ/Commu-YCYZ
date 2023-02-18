@@ -1,4 +1,4 @@
-name: Deploy To Tencentcloud Server
+name: Deploy To Tencentcloud Serve
 on:
   push:
     branches: master
@@ -11,33 +11,16 @@ jobs:
     runs-on: ubuntu-22.04
     
     steps:
-
-      - uses: actions/checkout@v3
-      
-      - uses: actions/setup-python@v4
+      - name: Auto Build
+        uses: appleboy/ssh-action@v0.1.7
         with:
-          python-version: '3.10'
-          cache: pipenv
-
-      - name: Build Static Page
-        run: |
-          curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python3
-          pipenv install
-          pipenv run mkdocs build -v
-          
-
-      - uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.TENCENT_PRIVATE_KEY }}
-          ARGS: "-avzr --delete"
-          SOURCE: "site/"
-          REMOTE_HOST: ${{ secrets.TENCENT_HOST }}
-          REMOTE_USER: ${{ secrets.TENCENT_USER }}
-          TARGET: ${{ secrets.TENCENT_WORKING_DIR }}/site
-          SCRIPT_BEFORE: |
-            whoami
-            ls -al
-          SCRIPT_AFTER: |
-            whoami
-            ls -al
-            echo $RSYNC_STDOUT
+          host: ${{ secrets.TENCENT_HOST }}
+          username: ${{ secrets.TENCENT_USER }}
+          key: ${{ secrets.TENCENT_PRIVATE_KEY }}
+          script: |
+            cd ${{ secrets.TENCENT_WORKING_DIR }}
+            git checkout master
+            git pull
+            pipenv install
+            pipenv run mkdocs build
+            minify -ars -o msite site
