@@ -18,6 +18,7 @@ jobs:
           username: ${{ secrets.TENCENT_USER }}
           key: ${{ secrets.TENCENT_PRIVATE_KEY }}
           script: |
+            cd ${{ secrets.TENCENT_WORKING_DIR }}
             git checkout master
             git pull
             pipenv install
