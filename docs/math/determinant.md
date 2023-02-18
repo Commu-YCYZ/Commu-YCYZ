@@ -419,6 +419,10 @@ y_1&y_2\\
 
 ### 行列式的构造（选读）
 
+\end{vmatrix}）$。
+
+### 行列式的构造（选读）
+
 ---
 !!! summary "页面作者"
     [FBC](mailto:bochengfeng.phy@stu.pku.edu.cn)
