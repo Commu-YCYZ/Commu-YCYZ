@@ -26,13 +26,13 @@ git clone https://github.com/Commu-YCYZ/Commu-YCYZ.git
 
 ### 安装 pipenv
 
-您需要已安装 `pipenv`，否则，通过 `pip install --user pipenv` 安装。
+您需要已安装 `pipenv`，否则，通过 `sudo pip install pipenv` 安装。
 
 如果在这一步出现错误，请查阅 [pipenv 官方教程](https://pipenv.pypa.io/en/latest/)
 
 ### 安装依赖
 
-注意：**不要**在 `sudo` 模式执行 `pipenv` 相关操作！
+注意：**不要**在 `sudo` 模式执行以下 `pipenv` 相关操作！
 
 运行 `pipenv install` 以根据项目中的配置文件安装依赖并生成虚拟环境。
 
