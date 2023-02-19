@@ -26,9 +26,16 @@ git clone https://github.com/Commu-YCYZ/Commu-YCYZ.git
 
 ### 安装 pipenv
 
-您需要已安装 `pipenv`，否则，通过 `sudo pip install pipenv` 安装。
+您需要已安装 `pipenv`，否则，通过 `pip install --user pipenv` 安装。
 
 如果在这一步出现错误，请查阅 [pipenv 官方教程](https://pipenv.pypa.io/en/latest/)
+
+您可能需要将 `~/.local/bin` 添加到环境变量 `PATH` 中，以便当前用户使用 `pipenv` 命令。
+
+```shell
+echo 'export PATH="$HOME/.local/bin"' >> ~/.profile
+source ~/.profile
+```
 
 ### 安装依赖
 
