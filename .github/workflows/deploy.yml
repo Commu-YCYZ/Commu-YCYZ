@@ -1,4 +1,5 @@
-name: Deploy To Tencentcloud Serve
+name: Deploy To Tencentcloud Server
+run-name: ${{ github.actor }} is deploying to server
 on:
   push:
     branches: master
