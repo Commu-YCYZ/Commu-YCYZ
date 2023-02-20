@@ -16,14 +16,6 @@
 
 本站采用 Ubuntu 22.04 LTS 操作系统。
 
-### 克隆项目
-
-运行
-
-```shell
-git clone https://github.com/Commu-YCYZ/Commu-YCYZ.git
-```
-
 ### 安装 pipenv
 
 您需要已安装 `pipenv`，否则，通过 `pip install --user pipenv` 安装。
@@ -34,6 +26,16 @@ git clone https://github.com/Commu-YCYZ/Commu-YCYZ.git
 
 ```shell
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+### 克隆项目
+
+运行
+
+```shell
+git clone https://github.com/Commu-YCYZ/Commu-YCYZ.git
+cd Commu-YCYZ
 ```
 
 ### 安装依赖
