@@ -1,0 +1,25 @@
+name: Deploy To Tencentcloud Server
+run-name: ${{ github.actor }} is deploying to server
+on:
+  push:
+    branches: master
+
+jobs:
+  update-dependencies:
+  
+    runs-on: ubuntu-22.04
+    
+    steps:
+      - name: Auto Build
+        uses: appleboy/ssh-action@v0.1.7
+        with:
+          host: ${{ secrets.TENCENT_HOST }}
+          username: ${{ secrets.TENCENT_USER }}
+          key: ${{ secrets.TENCENT_PRIVATE_KEY }}
+          script: |
+            cd ${{ secrets.TENCENT_WORKING_DIR }}
+            git checkout master
+            git pull
+            pipenv install
+            pipenv run mkdocs build
+            minify -ars -o msite site
