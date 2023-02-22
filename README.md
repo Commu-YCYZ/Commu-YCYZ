@@ -58,4 +58,4 @@ cd Commu-YCYZ
 
 1. 进入 `site` 目录，即运行 `cd site`
 
-1. 运行 `python3 http.server`
+1. 运行 `python3 -m http.server`
