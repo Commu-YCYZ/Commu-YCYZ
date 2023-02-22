@@ -52,8 +52,12 @@ markdown_extensions:
   - admonition # !!! 格式支持
   - pymdownx.arithmatex: # latex 公式支持
       generic: true
+  - pymdownx.highlight:
+      linenums: true # 显示代码块行号
   - pymdownx.details # 折叠格式 ???
   - footnotes
+
+
   - toc:
       permalink: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {percent_encode: True}}
