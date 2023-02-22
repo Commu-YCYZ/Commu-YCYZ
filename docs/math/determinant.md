@@ -1,6 +1,6 @@
 ---
 comments: true
-description: 对行列式的计算、构造、性质及应用进行充分的介绍。
+description: 对行列式的计算、构造、性质及应用进行基本介绍。
 ---
 
 !!! warning "需要审核"
@@ -8,11 +8,11 @@ description: 对行列式的计算、构造、性质及应用进行充分的介�
     - 本页面可能包含知识性错误。
     - 欢迎参与修改页面！
 
-## 前言
-
 > *Mathematics is the art of giving the same name to different things.* 
 >
 > --*Henri Poincaré*
+
+## 前言
 
 **行列式(*determinant*)**作为基本的数学工具在**代数、几何、矢量分析、微积分**等多个方面都有广泛的应用，因此有十分的必要对行列式的计算、构造、性质及应用进行充分的介绍。
 
