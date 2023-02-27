@@ -447,4 +447,4 @@ y_1&y_2\\
 
 ---
 !!! summary "页面作者"
-    [FBC](mailto:bochengfeng.phy@stu.pku.edu.cn)
+    [Feng Bocheng](mailto:bochengfeng.phy@stu.pku.edu.cn)
