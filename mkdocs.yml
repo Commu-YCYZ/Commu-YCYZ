@@ -1,3 +1,26 @@
+nav:
+  - 关于本站:
+    - 简介: index.md
+    - 参与贡献: about/to-contribute.md
+    - 格式指导: about/format.md
+  - 数学:
+    - 圆锥曲线:
+      - 圆锥曲线解题方法与思路: math/conics/solution-guidance.md
+    - 计数原理:
+      # - 加法原理与乘法原理: math/counting/counting-principle.md
+      - 多项式定理: math/counting/multinomial-theorem.md
+  - 物理:
+    - 电磁学:
+      - 常见模型的深入理解: physics/electromagnetics/deeper-understanding-on-regular-models.md
+  - 物理竞赛:
+    - 数学:
+      - 微积分基础: physics-olympiad/math/basic-calculus.md
+    # - 力学:
+    #   - 狭义相对论: physics-olympiad/mechanics/special-relativity.md
+  - 数学拓展:
+    - 线性代数:
+      - 行列式的构造、基本性质及其应用: further-math/linear-algebra/determinant.md
+
 site_name: Commu-YCYZ
 site_description: Commu-YCYZ 是一群毕业生设立的自由网站，致力于为高中生分享便于自学的知识和技巧。
 site_author: Commu-YCYZ Team
@@ -15,7 +38,7 @@ theme:
     - navigation.instant
     - navigation.footer
     - navigation.top
-
+    - content.code.copy # copy code block to clipboard
     - content.action.view
   icon:
     repo: fontawesome/brands/github
@@ -68,17 +91,3 @@ extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML' # latex 公式支持
 
 copyright: 'Copyright &copy; 2023 Commu-YCYZ'
-
-nav:
-  - 关于本站:
-    - 简介: index.md
-    - 参与贡献: about/to-contribute.md
-    - 格式指导: about/format.md
-  - 数学:
-    - 圆锥曲线解题方法与思路: math/conics.md
-    - 微积分基础: math/basic-calculus.md
-    - 行列式的构造、基本性质及其应用: math/determinant.md
-    - 二项式定理的拓展与应用: math/quadratic.md
-    # - 计数原理: math/counting.md
-  - 物理:
-    - 常见模型的深入理解: physics/deeper-understanding-on-regular-models.md
