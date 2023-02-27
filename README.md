@@ -12,9 +12,9 @@
 
 ### 配置操作系统
 
-如果您使用 Windows 操作系统，请参考教程 [使用 WSL 在 Windows 上安装 Linux](https://learn.microsoft.com/zh-cn/windows/wsl/install) 以完成本地 Linux 安装。
-
 本站采用 Ubuntu 22.04 LTS 操作系统。
+
+如果您使用 Windows 操作系统，可以参考教程 [使用 WSL 在 Windows 上安装 Linux](https://learn.microsoft.com/zh-cn/windows/wsl/install) 以完成本地 Linux 安装。
 
 ### 安装 pipenv
 
