@@ -23,4 +23,4 @@ jobs:
             pipenv install
             pipenv run mkdocs build
             minify -ars -o msite site
-            sudo cp -rf ~/Commu-YCYZ/msite/site/ /home/www/Commu-YCYZ/
+            cp -rf ~/Commu-YCYZ/msite/site/ /data/www/Commu-YCYZ-site
